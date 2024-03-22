@@ -1,0 +1,303 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f6f9;
+  min-height: 100vh;
+}
+
+/* ----HEADER---- */
+header {
+  position: sticky;
+  top: 0;
+}
+.header {
+  display: flex;
+  align-items: center;
+  padding: 6px;
+  background-image: url("img/footer\ background.jpg");
+}
+.logo1 img {
+  margin-left: 10px;
+  width: 65px;
+  height: 50px;
+}
+.website {
+  margin-left: 10px;
+  color: white;
+}
+.search-bar {
+  margin-left: 38rem;
+}
+
+.search-input {
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.search-bar button {
+  padding: 10px;
+  background-color: #9ba4b4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #394867;
+}
+
+.login button {
+  margin-left: 6rem;
+  margin-right: 10px;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login button:hover {
+  background-color: darkgrey;
+}
+
+/* ----Navigation---- */
+.nav {
+  background-color: #14274e;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.nav__wrapper {
+  margin-left: 26rem;
+  gap: 2em;
+}
+.nav__wrapper li {
+  display: inline-block;
+  margin-right: 5.5rem;
+}
+.nav__wrapper li a {
+  transition: 0.3s;
+}
+.nav__item a:hover {
+  color: greenyellow;
+  font-weight: bold;
+}
+.nav__item a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* ----Halaman Utama---- */
+.utama {
+  height: 100vh;
+  background-image: url(img/background\ hal\ utama.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.header-text {
+  max-width: 576px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+.header-text .header-tittle {
+  font-size: 48px;
+  font-weight: 500;
+  padding-top: 220px;
+}
+.header-text h1 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 72px;
+}
+.header-text p {
+  font-size: 18px;
+  line-height: 27px;
+  color: #848484;
+}
+
+/* ----Pengumuman---- */
+#news {
+  margin-top: 5px;
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 35px;
+  color: #14274e;
+}
+.pengumuman {
+  padding-bottom: 2rem;
+}
+.pengumuman .box {
+  padding-left: 29%;
+  display: block;
+  margin-top: 10px;
+}
+
+.pengumuman .isi {
+  border-radius: 42px;
+  border: 2px solid black;
+  background-color: #f1f6f9;
+  width: 60%;
+  padding: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+.pengumuman .isi:hover {
+  box-shadow: 4px 4px 6px #9ba4b4;
+}
+
+.pengumuman .isi a {
+  text-decoration: none;
+}
+
+.pengumuman .box .isi .box-text {
+  padding-left: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 80px;
+}
+.pengumuman .box .isi .box-text p:nth-child(1) {
+  font-weight: bold;
+  text-transform: capitalize;
+  color: rgb(14, 20, 65);
+  line-height: 1.4;
+}
+.pengumuman .box .isi .box-text p:nth-child(2) {
+  color: red;
+}
+.pengumuman .box .isi .box-text p:nth-child(3) {
+  color: black;
+  margin-left: 28rem;
+}
+.seemore button {
+  margin-left: 16rem;
+  margin-top: 10px;
+  padding: 15px;
+  background-color: #f1f6f9;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2px solid black;
+}
+.seemore button:hover {
+  background-color: darkgrey;
+}
+
+/* ----Jadwal Orkes---- */
+.jadwal {
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+}
+.jadwal h1 {
+  margin-top: 5px;
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 35px;
+  color: #14274e;
+}
+.jadwal .sch {
+  margin-top: 2rem;
+  margin-left: 3rem;
+  margin-bottom: 1rem;
+}
+
+.jadwal .sch .sch-row {
+  width: 30rem;
+  height: 250px;
+  border-radius: 42px;
+  background: #faf8f8;
+  box-shadow: 1px 1px 5px black;
+  padding: 1.5rem;
+  display: flex;
+}
+.jadwal .sch .sch-row .sch-set {
+  margin-right: 30px;
+}
+.jadwal .sch .sch-row .sch-set img {
+  width: 150px;
+}
+.jadwal .sch .sch-row .overlay .float .float-text table tr td {
+  padding: 0.3rem;
+}
+.harga {
+  color: chocolate;
+  font-weight: bold;
+}
+.detail {
+  margin-top: 3rem;
+  margin-left: 10rem;
+}
+.detail a {
+  padding: 0.4rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: #474bff;
+  color: white;
+  border: 1px solid #dbdcef;
+  letter-spacing: 2px;
+}
+
+/* ----Footer---- */
+footer {
+  bottom: 0;
+  background-color: #5356ff;
+  width: 100%;
+  padding: 50px 0 10px 0;
+}
+
+.logo {
+  width: 80px;
+  height: 65px;
+}
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.footer__links {
+  min-height: 200px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid white;
+  padding-bottom: 30px;
+}
+
+.foooter__links-separator {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 40px;
+}
+
+.foooter__links-block p {
+  color: white;
+  width: 350px;
+}
+.foooter__links-block {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.sosmed a img {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.footer__links__under-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+  color: white;
+}
